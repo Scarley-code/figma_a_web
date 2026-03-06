@@ -225,3 +225,125 @@ body {
   margin: 15px 0;
   object-fit: cover;
 }
+
+
+
+@media (max-width: 768px) {
+
+  /* NAV */
+  .nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* HERO */
+
+  .hero {
+    height: auto;
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  /* FEATURES */
+
+  .features {
+    padding: 40px 20px;
+  }
+
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  /* WHY */
+
+  .why {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .why-left {
+    width: 100%;
+  }
+
+  .why-right img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  /* TESTIMONIOS */
+
+  .testimonials {
+    padding: 40px 20px;
+  }
+
+  .testimonials-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  /* PRICING */
+
+  .pricing {
+    padding: 40px 20px;
+  }
+
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+
+}
